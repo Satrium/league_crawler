@@ -1,0 +1,15 @@
+{
+    "database":{
+        "connection_string":"postgres://localhost/crawler"
+    },
+    "region":"EUW",
+    "seed":{
+        "type":"CHALLENGER"
+    },"loading":{
+        "match": true,
+        "timeline": true,        
+        "league": true,
+        "championmastery":false,
+        "summoner": false
+    }
+}

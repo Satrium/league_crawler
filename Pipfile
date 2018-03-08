@@ -7,8 +7,9 @@ name = "pypi"
 
 [packages]
 
-cassiopeia = "*"
-cassiopeia-sqlstore = "*"
+cassiopeia = {git="https://github.com/meraki-analytics/cassiopeia", editable=true}
+cassiopeia-sqlstore= {git="https://github.com/meraki-analytics/cassiopeia-datastores", editable=true, subdirectory="cassiopeia-sqlstore"}
+"psycopg2" = "*"
 
 
 [dev-packages]
